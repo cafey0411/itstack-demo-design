@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9161dc2-6831-415a-bf8a-45dd3642560c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-01/src/test/java/org/itstack/demo/design/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-01/src/test/java/org/itstack/demo/design/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/CacheService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/ICacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/ICacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/EGMCacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/EGMCacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/IIRCacheAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/IIRCacheAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/impl/CacheServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/impl/CacheServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itstack-demo-design-2-02/src/test/java/org/itstack/demo/desgin/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/itstack-demo-design-2-02/src/test/java/org/itstack/demo/desgin/test/ApiTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-5-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-1-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-2-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-20-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-22-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-16-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-14-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-4-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-12-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-2-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-9-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-18-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-10-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-18-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-14-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-9-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-3-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-8-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-11-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-19-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-6-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-13-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-6-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-3-01/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-13-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-18-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-19-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-1-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-14-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-8-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-20-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-21-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-10-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-15-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-4-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-13-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-6-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-2-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-17-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-11-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-1-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-3-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-9-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-7-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-19-00/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-16-02/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-10-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-7-01/target/" />
+    <ignored path="$PROJECT_DIR$/itstack-demo-design-4-02/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/test/java/org/itstack/demo/desgin/test/ApiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="810" column="5" lean-forward="true" selection-start-line="810" selection-start-column="5" selection-end-line="810" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/impl/CacheServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/CacheService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/util/ClassLoaderUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="171" column="37" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/ICacheAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/IIRCacheAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/itstack-demo-design-1-01/src/main/java/org/itstack/demo/design/PrizeController.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-01/src/test/java/org/itstack/demo/design/test/ApiTest.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/impl/CacheServiceImpl.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/CacheService.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/test/java/org/itstack/demo/desgin/test/ApiTest.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/ICacheAdapter.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/EGMCacheAdapter.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/IIRCacheAdapter.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/CacheService.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKProxy.java" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/itstack-demo-design.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-14-02/itstack-demo-design-14-02.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-4-01/itstack-demo-design-4-01.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-12-00/itstack-demo-design-12-00.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-9-00/itstack-demo-design-9-00.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-14-01/itstack-demo-design-14-01.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-9-02/itstack-demo-design-9-02.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-11-02/itstack-demo-design-11-02.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-14-00/itstack-demo-design-14-00.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-20-02/itstack-demo-design-20-02.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-15-00/itstack-demo-design-15-00.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-2-01/itstack-demo-design-2-01.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-11-01/itstack-demo-design-11-01.iml" />
+        <option value="$PROJECT_DIR$/itstack-demo-design-9-01/itstack-demo-design-9-01.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/itstack_demo_design_10_00_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/itstack_demo_design_10_00_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_58.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_60.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_stream_sjsxp_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_java7_2_4_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_20.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_14.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_12.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_14_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_2_2_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxb_provider_2_2_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_2_2_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jettison_provider_2_2_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_spring_2_2_1_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scannotation_scannotation_1_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_1_1_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_24_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_4_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="801" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="itstack-demo-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_CacheService (1)">
+    <configuration name="ApiTest.test_CacheService (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itstack-demo-design-2-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstack.demo.desgin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstack.demo.desgin.test" />
+      <option name="MAIN_CLASS_NAME" value="org.itstack.demo.desgin.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_CacheService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_CacheService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itstack-demo-design-2-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstack.demo.design.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstack.demo.design.test" />
+      <option name="MAIN_CLASS_NAME" value="org.itstack.demo.design.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_CacheService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_awardToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itstack-demo-design-1-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.itstack.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.itstack.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="org.itstack.demo.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_awardToUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="itstack-demo-design-10-00" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.itstack.demo.design.HelloWorldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_CacheService (1)" />
+        <item itemvalue="JUnit.ApiTest.test_CacheService" />
+        <item itemvalue="JUnit.ApiTest.test_awardToUser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9161dc2-6831-415a-bf8a-45dd3642560c" name="Default Changelist" comment="" />
+      <created>1602503094132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602503094132</updated>
+      <workItem from="1602503096400" duration="3779000" />
+      <workItem from="1602573833536" duration="4000" />
+      <workItem from="1602578363199" duration="5371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ApiTest_test_awardToUser - 2020.10.12 at 20h 15m 42s.xml">
+      <configuration name="ApiTest.test_awardToUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService - 2020.10.13 at 17h 00m 54s.xml">
+      <configuration name="ApiTest.test_CacheService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService - 2020.10.13 at 17h 01m 09s.xml">
+      <configuration name="ApiTest.test_CacheService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService - 2020.10.13 at 17h 01m 19s.xml">
+      <configuration name="ApiTest.test_CacheService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService_(1) - 2020.10.13 at 17h 29m 20s.xml">
+      <configuration name="ApiTest.test_CacheService (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService_(1) - 2020.10.13 at 17h 29m 56s.xml">
+      <configuration name="ApiTest.test_CacheService (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService_(1) - 2020.10.13 at 17h 34m 07s.xml">
+      <configuration name="ApiTest.test_CacheService (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService_(1) - 2020.10.13 at 17h 35m 39s.xml">
+      <configuration name="ApiTest.test_CacheService (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApiTest_test_CacheService_(1) - 2020.10.13 at 17h 40m 44s.xml">
+      <configuration name="ApiTest.test_CacheService (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9154000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2110951" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1115942" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289855" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/doc/itstack-demo-design-11-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/card/IQiYiCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/coupon/CouponInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/goods/GoodsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/goods/DeliverReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/goods/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/coupon/CouponResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/card/IQiYiCardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-01/src/main/java/org/itstack/demo/design/AwardRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-01/src/test/java/org/itstack/demo/test/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/main/java/org/itstack/demo/design/store/impl/CardCommodityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/main/java/org/itstack/demo/design/store/impl/GoodsCommodityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-01/src/main/java/org/itstack/demo/design/PrizeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#2979#2980#0" expanded="true" />
+            <element signature="e#3015#3016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-01/src/main/java/org/itstack/demo/design/AwardReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/test/java/org/itstack/demo/design/test/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/main/java/org/itstack/demo/design/StoreFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/main/java/org/itstack/demo/design/store/ICommodity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-00/src/main/java/org/itstack/demo/design/coupon/CouponService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-1-02/src/main/java/org/itstack/demo/design/store/impl/CouponCommodityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/matter/IIR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-01/src/main/java/org/itstack/demo/design/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/matter/EGM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/cuisine/impl/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-01/src/main/java/org/itstack/demo/design/cuisine/impl/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-01/src/test/java/org/itstack/demo/design/test/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/com/sun/corba/se/impl/presentation/rmi/StubInvocationHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="158" column="27" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-00/src/main/java/org/itstack/demo/design/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/EGMCacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1780" column="54" lean-forward="true" selection-start-line="1780" selection-start-column="54" selection-end-line="1780" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="70" column="12" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/util/ClassLoaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="171" column="37" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/impl/IIRCacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/ICacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/impl/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKInvocationHandler2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/test/java/org/itstack/demo/desgin/test/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="810" column="5" lean-forward="true" selection-start-line="810" selection-start-column="5" selection-end-line="810" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itstack-demo-design-2-02/src/main/java/org/itstack/demo/desgin/factory/JDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

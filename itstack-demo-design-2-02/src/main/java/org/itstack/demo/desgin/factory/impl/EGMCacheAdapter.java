@@ -1,15 +1,16 @@
 package org.itstack.demo.desgin.factory.impl;
 
 import org.itstack.demo.desgin.factory.ICacheAdapter;
+import org.itstack.demo.design.CacheService;
 import org.itstack.demo.design.matter.EGM;
 
 import java.util.concurrent.TimeUnit;
 
-public class EGMCacheAdapter implements ICacheAdapter {
+public class EGMCacheAdapter implements CacheService {
 
     private EGM egm = new EGM();
 
-    public String get(String key) {
+    public String get2(String key) {
         return egm.gain(key);
     }
 

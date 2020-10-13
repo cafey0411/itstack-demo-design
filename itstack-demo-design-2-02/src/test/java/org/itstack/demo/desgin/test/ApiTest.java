@@ -14,12 +14,12 @@ public class ApiTest {
 
         CacheService proxy_EGM = JDKProxy.getProxy(CacheServiceImpl.class, new EGMCacheAdapter());
         proxy_EGM.set("user_name_01", "小傅哥");
-        String val01 = proxy_EGM.get("user_name_01");
+        String val01 = proxy_EGM.get2("user_name_01");
         System.out.println("测试结果：" + val01);
 
         CacheService proxy_IIR = JDKProxy.getProxy(CacheServiceImpl.class, new IIRCacheAdapter());
         proxy_IIR.set("user_name_01", "小傅哥");
-        String val02 = proxy_IIR.get("user_name_01");
+        String val02 = proxy_IIR.get2("user_name_01");
         System.out.println("测试结果：" + val02);
 
     }

@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 public interface ICacheAdapter {
 
-    String get(String key);
+    String get2(String key);
 
     void set(String key, String value);
 

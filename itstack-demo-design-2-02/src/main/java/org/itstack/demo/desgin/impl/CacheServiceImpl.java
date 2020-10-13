@@ -9,7 +9,7 @@ public class CacheServiceImpl implements CacheService {
 
     private RedisUtils redisUtils = new RedisUtils();
 
-    public String get(String key) {
+    public String get2(String key) {
         return redisUtils.get(key);
     }
 
